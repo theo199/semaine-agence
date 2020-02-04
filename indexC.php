@@ -5,7 +5,7 @@
 	</head>
 	<body>
 	<h2>Enregistrement</h2>
-	<a href = 'indexC.php'>inscription coach </a>
+	<a href = 'index.php'>inscription eleves </a>
 	</br></br>
 	<form action="register.php" method="POST">
 		<label>Identifiant :</label>
