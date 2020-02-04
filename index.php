@@ -4,7 +4,7 @@
 	<title>Exemple - Mot de passe</title>
 	</head>
 	<body>
-	<h2>Enregistrement</h2>
+	<h2>Enregistrement eleves</h2>
 	<a href = 'indexC.php'>inscription coach </a>
 	</br></br>
 	<form action="register.php" method="POST">
