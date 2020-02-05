@@ -9,23 +9,16 @@
 </head>
 <body>
 
+
+
 <form class="partie1">
         <header>
             <img class="img1" src="https://img2.freepng.fr/20181201/cuf/kisspng-le-coq-sportif-logo-brand-chicken-rooster-5c03275dd42cb8.8897114815437105578691.jpg">
                 
                     <ul class="first">
-                        <li ><a class="jeux" href="#">jeux</a></li>
-                        <li ><a class="jeux" href="#">jeux</a></li>
-                        <li ><a class="jeux" href="#">jeux</a></li>
-
-                        <ul class="ul1"><li><p class="liste"><a class="liste" href="">liste</a></p>
-                            <ul class="ul2">
-                                    <li>Titre</li>
-                                    <li><a class="bouton" href="#">bouton</a></li>
-                                    <li><a class="bouton" href="#">bouton</a></li>
-                                    <li><a class="bouotn" href="#">bouton</a></li>
-                            </ul>
-                        </li> </ul>
+                        <li><a class="jeux" href="#">jeux</a></li>
+                        <li><a class="jeux" href="#">jeux</a></li>
+                        <li><a class="jeux" href="#">jeux</a></li>
                     </ul>
                          
             
@@ -34,55 +27,38 @@
         </header>
 
         <video></video>
-
-    </form>
-
-    <form class="partie2">
-        <img src="">
+        <div class="carre">
+        <p class = "titreP">Titre</p>
+        <form action="registerC.php" method="post">
             <div>
-                <h2></h2>
-                <p></p>
-                <input type="submit" name="bouton" >
+            <div class="ligne1"> 
+    <div class="form" >
+        <label for="nameC"></label>
+        <input type="text" name="nameC" placeholder= "  nom gérant" class ="form1">
+    </div>
+    <div class="form">
+        <label for="surnameC"></label>
+        <input type="text" name="surnameC" placeholder= "  prenom gèrant" class ="form1">
+    </div>
             </div>
-        <img src="">
+            <div class="ligne1">
+    <div class="form">
+        <label for="club"></label>
+        <input type="text" name="club" placeholder= "  nom club/organisme" class ="form1">
+    </div>
+    <div class="form">
+        <label for="sport"></label>
+        <input type="text" name="sport" placeholder= "  sport proposés" class ="form1"> 
+</div>
+</div>
+
+<input type="submit" name= "button" placeholder="suivant" class="button1">
+</form>
+
+
+
+        </div>
     </form>
-
-    <form class="partie3">
-          <h3 class="titre_partie_3">Titre</h3>
-      </div>
-          <div class="images">
-            <div class="carre1">
-              <div class="image1">
-                <img src="">
-              </div>
-                <p class ="text1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, q."</p>
-            </div>
-              <div class="carre1">
-                <div class="image1">
-                <img src="">
-                </div>
-              <p class ="text1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, q."</p>
-              </div>
-            <div class="carre1">
-              <div class="image1">
-                <img src="">
-            </div>
-            <p class ="text1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, q."</p>
-          </div>
-          </div>
-    </form>
-
-    <form class="partie4">
-        <p></p>
-        <h4></h4>
-        <input type="submit" name="bouton">
-
-            <div>
-                <img src="">
-                <img src="">
-            </div>
-    </form>
-
     <form class="partie5">
         <p class="titre_partie_3">Titre</p>
         <div class="images">
@@ -121,9 +97,3 @@
         </div>
 
     </form>
-
-
-
-
-</body>
-</html>

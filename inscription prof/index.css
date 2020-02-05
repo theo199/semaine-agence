@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+  }
+  
+  /* partie1  */
+  
+  .partie1{
+    background-color: #DCDCDC;
+    border-bottom: 2px solid black;
+    top: 500vh;
+    height: 100vh;
+  } 
+  
+  .img1{
+    position: absolute;
+    height: 30px;
+    width: auto;
+    top: 7px;
+    left: 7px;
+  
+  }
+  
+  header{
+    position: absolute;
+    height: 45px;
+    width: 100%;
+    background-color: grey;
+  }
+  
+  .first{
+    position: absolute;
+    top:-10px;
+    display: flex;
+    left: 800px;
+    font-size: 20px;
+  
+  }
+  
+  ul li{
+    list-style: none;
+    margin-right: 50px;
+    padding: 1px 7px;
+    text-decoration: none;
+  }
+  
+  .jeux{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .liste{
+    position: absolute;
+    text-align: right;
+    right:  30px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 1px 10px;
+    top: -8px;
+  
+  }
+  
+
+  
+  
+  .img2{
+    position: absolute;
+    height: 30px;
+    width: auto;
+    top: 7px;
+    right: 7px;
+    text-align: right;
+  
+  }
+  
+    
+    .carre{
+        width: 1710px;
+        height: 700px;
+       background-color: rgba(168,255,183,1);
+       position: relative;
+       margin-left: 100px;
+}
+
+    .titreP{
+        font-size: 40px;
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        padding-top: 50px;
+    }
+
+    .ligne1{
+            display: flex;
+          align-items: center;
+          font-size: 40px;
+    }
+
+    .form{
+        margin-right:auto;
+        margin-left: auto;
+        margin-bottom: 200px;
+    }
+
+    .form1{
+
+        height: 50px;
+        width: 800px;
+        font-size: 40px;
+    }
+
+    .button1{
+        height: 50px;
+        width: 200px;
+        position: absolute;
+        left: 750px;
+        bottom: 100px;
+    }
+
+
+
+
+
+
+    .titre_partie_3{
+        width: 95px;
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 39px;
+        background-color: rgba(218,174,251,1);
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        margin-top: 200px;
+      }
+      
+      .images{
+        display: flex;
+      align-items: center;
+      }
+      
+      .image1{
+        width: 200px;
+        height: 200px;
+            border-radius: 100px;
+            background: white;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            top : 30px;
+      }
+      
+      .carre1{
+        width: 500px;
+        height: 720px;
+      background: grey;
+      margin: 75px;
+      }
+      
+      
+      .text1{
+        text-align: center;
+        color: black;
+        background-color: white;
+        margin-left: 30px;
+        margin-right: 30px;
+        position: relative;
+        top: 100px;
+      
+      }
+      
+      .liste_lien{
+        color: white;
+        background-color:rgba(126,216,207,1);
+        margin-left: 60px;
+        margin-right: 60px;
+        position: relative;
+        list-style: none;
+        width: 400px;
+      }
+      
+      .photo{
+        width:76px ;
+        height:67px;
+        background: black;
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-top: -600px
+      }

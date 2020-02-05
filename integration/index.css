@@ -63,3 +63,119 @@ margin: 75px;
   margin-right: 60px;
   margin-top: -350px
 }
+
+
+
+
+
+
+
+
+
+
+
+body{
+  margin: 0;
+}
+
+/* partie1  */
+
+.partie1{
+  background-color: #DCDCDC;
+  border-bottom: 2px solid black;
+  top: 500vh;
+  height: 100vh;
+} 
+
+.img1{
+  position: absolute;
+  height: 30px;
+  width: auto;
+  top: 7px;
+  left: 7px;
+
+}
+
+header{
+  position: absolute;
+  height: 45px;
+  width: 100%;
+  background-color: grey;
+}
+
+.first{
+  position: absolute;
+  top:-3px;
+  display: flex;
+  left: 475px;
+  font-size: 15px;
+
+}
+
+ul li{
+  list-style: none;
+  margin-right: 50px;
+  border: 1px solid black;
+  padding: 1px 7px;
+  text-decoration: none;
+}
+
+.jeux{
+  text-decoration: none;
+  color: black;
+}
+
+.liste{
+  position: absolute;
+  text-align: right;
+  right:  30px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 1px 10px;
+  top: -8px;
+
+}
+
+.ul2{
+  position: absolute;
+  right: 5px;
+  top: 25px;
+  line-height: 30px;
+  background-color: #D3D3D3;
+  text-align:left;
+  display: none;
+}
+
+.ul1 li:hover .ul2{
+  display: block;
+}
+
+
+
+
+.img2{
+  position: absolute;
+  height: 30px;
+  width: auto;
+  top: 7px;
+  right: 7px;
+  text-align: right;
+
+}
+
+.menu{
+  cursor: pointer;
+  }
+  .lima-maps{
+  display: none;
+  position: absolute;
+  right: 15px;
+  z-index: 9999999999;
+  overflow: hidden;
+  border: 1px solid black
+  }
+
+  .maps-menu:hover .lima-maps{
+  display: block;
+  }
