@@ -1,53 +1,51 @@
 body{
     margin: 0;
   }
-  
+
   /* partie1  */
-  
+
   .partie1{
     background-color: #DCDCDC;
-    border-bottom: 2px solid black;
-    top: 500vh;
-    height: 100vh;
-  } 
-  
+
+  }
+
   .img1{
     position: absolute;
     height: 30px;
     width: auto;
     top: 7px;
     left: 7px;
-  
+
   }
-  
+
   header{
     position: absolute;
     height: 45px;
     width: 100%;
     background-color: grey;
   }
-  
+
   .first{
     position: absolute;
     top:-10px;
     display: flex;
     left: 800px;
     font-size: 20px;
-  
+
   }
-  
+
   ul li{
     list-style: none;
     margin-right: 50px;
     padding: 1px 7px;
     text-decoration: none;
   }
-  
+
   .jeux{
     text-decoration: none;
     color: black;
   }
-  
+
   .liste{
     position: absolute;
     text-align: right;
@@ -57,12 +55,13 @@ body{
     border: 1px solid black;
     padding: 1px 10px;
     top: -8px;
-  
-  }
-  
 
-  
-  
+  }
+
+
+
+
+
   .img2{
     position: absolute;
     height: 30px;
@@ -70,16 +69,17 @@ body{
     top: 7px;
     right: 7px;
     text-align: right;
-  
+
   }
-  
-    
+
+
     .carre{
         width: 1710px;
-        height: 700px;
+        height: 1000px;
        background-color: rgba(168,255,183,1);
        position: relative;
        margin-left: 100px;
+       margin-top: -100px;
 }
 
     .titreP{
@@ -134,12 +134,12 @@ body{
         color: white;
         margin-top: 200px;
       }
-      
+
       .images{
         display: flex;
       align-items: center;
       }
-      
+
       .image1{
         width: 200px;
         height: 200px;
@@ -150,15 +150,15 @@ body{
             margin-right: auto;
             top : 30px;
       }
-      
+
       .carre1{
         width: 500px;
         height: 720px;
       background: grey;
       margin: 75px;
       }
-      
-      
+
+
       .text1{
         text-align: center;
         color: black;
@@ -167,9 +167,9 @@ body{
         margin-right: 30px;
         position: relative;
         top: 100px;
-      
+
       }
-      
+
       .liste_lien{
         color: white;
         background-color:rgba(126,216,207,1);
@@ -179,12 +179,53 @@ body{
         list-style: none;
         width: 400px;
       }
-      
+
       .photo{
         width:76px ;
         height:67px;
         background: black;
         margin-left: 60px;
         margin-right: 60px;
-        margin-top: -600px
+        margin-top: -440px
+      }
+
+
+
+
+
+      .mail{
+        width: 900px;
+      }
+
+      .number{
+        width: 400px;
+      }
+
+      .city{
+        width: 400px;
+      }
+
+      .adress{
+        width: 900px;
+      }
+
+      .password{
+        position: absolute;
+        top: 350px;
+        left: 100px;
+      }
+
+      .ligneC2{
+        position: relative;
+        margin-top: -150px;
+      }
+
+      .ligneC3{
+      margin-top: -250px;
+      font-size: 40px;
+
+      }
+
+      .ligneC{
+        margin-top: -150px;
       }
